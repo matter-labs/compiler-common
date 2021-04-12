@@ -12,7 +12,7 @@ pub static ZINC: &str = "zn";
 pub static YUL: &str = "yul";
 
 /// The assembly file extension.
-pub static ASSEMBLY: &str = "sasm";
+pub static ASSEMBLY: &str = "zasm";
 
 /// The JSON data file extension.
 pub static JSON: &str = "json";

@@ -13,3 +13,4 @@ pub mod file_name;
 pub mod panic;
 pub mod size;
 pub mod source;
+pub mod virtual_machine;

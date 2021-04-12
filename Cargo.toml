@@ -1,0 +1,11 @@
+[package]
+name = "compiler-const"
+version = "0.3.0"
+authors = [
+    "Alex Zarudnyy <a.zarudnyy@matterlabs.dev>",
+]
+edition = "2018"
+description = "The compiler constants"
+
+[lib]
+doctest = false

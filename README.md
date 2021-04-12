@@ -1,2 +1,3 @@
-# compiler-const
-The compiler constants
+# Compiler constants
+
+The compiler constants library.

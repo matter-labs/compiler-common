@@ -2,23 +2,11 @@
 //! The Zinc panic constant messages.
 //!
 
-/// The thread synchronization is always successful.
-pub static SYNCHRONIZATION: &str = "Thread synchronization is always successful";
-
-/// The thread pool initialization is always successful.
-pub static THREAD_POOL: &str = "Thread pool initialization is always successful";
-
-/// The asynchronous runtime initialization is always successful.
-pub static ASYNC_RUNTIME: &str = "Asynchronous runtime initialization is always successful";
-
 /// The data conversion is always valid.
 pub static DATA_CONVERSION: &str = "Data conversion is always successful: ";
 
 /// The `Result` or `Option` value is always set. Should be eliminated where possible.
 pub static VALUE_ALWAYS_EXISTS: &str = "Value always exists";
-
-/// The last shared reference unwrapping is always successful.
-pub static LAST_SHARED_REFERENCE: &str = "There must be no other references at this point";
 
 /// The builder pattern entity must be provided with the specified value.
 pub static BUILDER_REQUIRES_VALUE: &str = "The builder requires a value: ";

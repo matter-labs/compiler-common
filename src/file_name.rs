@@ -16,6 +16,3 @@ pub static MODULE_ENTRY: &str = "mod";
 
 /// The assembly file default name.
 pub static ASSEMBLY: &str = "main";
-
-/// The integration test scenario file default name.
-pub static SCENARIO: &str = "scenario";

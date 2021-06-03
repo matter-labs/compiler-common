@@ -2,17 +2,8 @@
 //! The Zinc panic constant messages.
 //!
 
-/// The data conversion is always valid.
-pub static DATA_CONVERSION: &str = "Data conversion is always successful: ";
-
-/// The `Result` or `Option` value is always set. Should be eliminated where possible.
-pub static VALUE_ALWAYS_EXISTS: &str = "Value always exists";
-
 /// The builder pattern entity must be provided with the specified value.
 pub static BUILDER_REQUIRES_VALUE: &str = "The builder requires a value: ";
-
-/// The unit test data validity is checked by the test authors.
-pub static TEST_DATA_VALID: &str = "Test data is always valid";
 
 /// The source code mapping compiler phase responsibility.
 pub static VALIDATED_DURING_SOURCE_CODE_MAPPING: &str = "Validated during source code mapping";

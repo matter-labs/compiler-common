@@ -12,4 +12,4 @@ pub static FUNCTION_SELECTOR: &str = "__selector";
 pub static VARIABLE_MSG: &str = "msg";
 
 /// The implicit `block` variable name.
-pub static VARIABLE_BLOCK: &str = "msg";
+pub static VARIABLE_BLOCK: &str = "block";

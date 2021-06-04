@@ -8,11 +8,14 @@ pub const BOOLEAN: usize = 1;
 /// The `u8` type or byte bitlength.
 pub const BYTE: usize = 8;
 
-/// The word type (usually `u64`) bitlength.
+/// The zkEVM pointer type (usually `16`) bitlength.
+pub const ZKEVM_POINTER: usize = crate::size::ZKEVM_POINTER * BYTE;
+
+/// The x86 word type (usually `u64`) bitlength.
 pub const WORD: usize = crate::size::WORD * BYTE;
 
-/// The `u256` and `i256` types bitlength.
-pub const FIELD: usize = crate::size::FIELD * BYTE;
-
-/// The ETH address bitlength.
+/// The ETH address (usually `u160`) bitlength.
 pub const ETH_ADDRESS: usize = crate::size::ETH_ADDRESS * BYTE;
+
+/// The zkEVM field (usually `u256` or `i256`) bitlength.
+pub const FIELD: usize = crate::size::FIELD * BYTE;

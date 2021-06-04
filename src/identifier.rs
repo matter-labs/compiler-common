@@ -3,7 +3,7 @@
 //!
 
 /// The circuit entry function name.
-pub static FUNCTION_MAIN: &str = crate::file_name::APPLICATION_ENTRY;
+pub static FUNCTION_MAIN: &str = "main";
 
 /// The contract entry selector function name.
 pub static FUNCTION_SELECTOR: &str = "__selector";

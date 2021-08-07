@@ -5,6 +5,9 @@
 /// The circuit entry function name.
 pub static FUNCTION_MAIN: &str = "main";
 
+/// The contract entry constructor function name.
+pub static FUNCTION_CONSTRUCTOR: &str = "__constructor";
+
 /// The contract entry selector function name.
 pub static FUNCTION_SELECTOR: &str = "__selector";
 

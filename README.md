@@ -1,3 +1,3 @@
-# Compiler constants
+# Compiler common
 
-The compiler constants library.
+The compiler common library.

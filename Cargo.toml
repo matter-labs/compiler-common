@@ -1,5 +1,5 @@
 [package]
-name = "compiler-const"
+name = "compiler-common"
 version = "0.3.0"
 authors = [
     "Alex Zarudnyy <a.zarudnyy@matterlabs.dev>",

@@ -1,5 +1,5 @@
 //!
-//! The byte size constants.
+//! The common sizes in bytes.
 //!
 
 /// The byte size.

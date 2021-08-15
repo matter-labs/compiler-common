@@ -10,6 +10,9 @@ description = "The compiler constants"
 [lib]
 doctest = false
 
+[dependencies]
+sha3 = "0.9"
+
 [dependencies.inkwell]
 git = "ssh://git@github.com/matter-labs-forks/inkwell"
 branch = "master"

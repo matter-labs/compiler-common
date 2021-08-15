@@ -11,6 +11,7 @@ pub mod bitlength;
 pub mod exit_code;
 pub mod extension;
 pub mod file_name;
+pub mod hashes;
 pub mod identifier;
 pub mod size;
 pub mod vm;

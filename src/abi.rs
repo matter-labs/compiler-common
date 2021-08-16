@@ -20,5 +20,14 @@ pub const CONSTRUCTOR_ENTRY_HASH: u32 = 0;
 /// The constructor flag key preimage.
 pub static CONSTRUCTOR_EXECUTED_FLAG_KEY_PREIMAGE: &str = "zkSyncEVM_ConstructorExecuted";
 
-/// The Solidity memory representation zero slot offset.
+/// The Solidity memory first hashing slot offset.
+pub const OFFSET_SOLIDITY_HASH_SLOT_FIRST: usize = 0;
+
+/// The Solidity memory second hashing slot offset.
+pub const OFFSET_SOLIDITY_HASH_SLOT_SECOND: usize = 1;
+
+/// The Solidity memory pointer offset.
+pub const OFFSET_SOLIDITY_MEMORY_POINTER_SLOT: usize = 2;
+
+/// The Solidity memory zero slot offset.
 pub const OFFSET_SOLIDITY_ZERO_SLOT: usize = 3;

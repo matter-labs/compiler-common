@@ -1,5 +1,5 @@
 //!
-//! The contract ABI offsets.
+//! The contract ABI constants.
 //!
 
 /// The calldata size.
@@ -17,9 +17,6 @@ pub const OFFSET_CALL_RETURN_DATA: usize = 8;
 /// The constructor entry mask.
 pub const CONSTRUCTOR_ENTRY_MASK: u32 = 1;
 
-/// The constructor flag key preimage.
-pub static CONSTRUCTOR_EXECUTED_FLAG_KEY_PREIMAGE: &str = "zkSyncEVM_ConstructorExecuted";
-
 /// The Solidity memory first hashing slot offset.
 pub const OFFSET_SOLIDITY_HASH_SLOT_FIRST: usize = 0;
 
@@ -31,3 +28,12 @@ pub const OFFSET_SOLIDITY_MEMORY_POINTER_SLOT: usize = 2;
 
 /// The Solidity memory zero slot offset.
 pub const OFFSET_SOLIDITY_ZERO_SLOT: usize = 3;
+
+/// The constructor flag key preimage.
+pub static CONSTRUCTOR_EXECUTED_FLAG_KEY_PREIMAGE: &str = "zkSyncEVM_ConstructorExecuted";
+
+/// The `expected constructor call` error preimage.
+pub static ERROR_EXPECTED_CONSTRUCTOR_CALL: &str = "zkSyncEVM_ErrorExpectedConstructorCall";
+
+/// The `double constructor call` error preimage.
+pub static ERROR_DOUBLE_CONSTRUCTOR_CALL: &str = "zkSyncEVM_ErrorDoubleConstructorCall";

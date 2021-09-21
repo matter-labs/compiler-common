@@ -14,6 +14,9 @@ pub static ZINC: &str = "zn";
 /// The Yul source code file extension.
 pub static YUL: &str = "yul";
 
+/// The EVM source code file extension.
+pub static EVM: &str = "evm";
+
 /// The Solidity source code file extension.
 pub static SOLIDITY: &str = "sol";
 

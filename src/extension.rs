@@ -20,6 +20,9 @@ pub static EVM: &str = "evm";
 /// The Solidity source code file extension.
 pub static SOLIDITY: &str = "sol";
 
+/// The Vyper source code file extension.
+pub static VYPER: &str = "vy";
+
 /// The LLVM source code file extension.
 pub static LLVM_SOURCE: &str = "ll";
 
@@ -30,4 +33,4 @@ pub static LLVM_BINARY: &str = "bc";
 pub static ZKEVM_ASSEMBLY: &str = "zasm";
 
 /// The zkEVM binary file extension.
-pub static ZKEVM_BINARY: Option<&str> = None;
+pub static ZKEVM_BINARY: &str = "zbin";

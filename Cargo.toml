@@ -4,8 +4,8 @@ version = "1.0.0"
 authors = [
     "Alex Zarudnyy <a.zarudnyy@matterlabs.dev>",
 ]
-edition = "2018"
-description = "The compiler constants"
+edition = "2021"
+description = "The compiler common data"
 
 [lib]
 doctest = false

@@ -2,20 +2,11 @@
 //! The contract ABI constants.
 //!
 
-/// The calldata size.
-pub const OFFSET_CALLDATA_SIZE: usize = 0;
+/// The header offset.
+pub const OFFSET_HEADER: usize = 0;
 
-/// The return data size.
-pub const OFFSET_RETURN_DATA_SIZE: usize = 1;
-
-/// The entry data, e.g. the method hash and constructor bit.
-pub const OFFSET_ENTRY_DATA: usize = 7;
-
-/// The call and return data.
-pub const OFFSET_CALL_RETURN_DATA: usize = 8;
-
-/// The constructor entry mask.
-pub const CONSTRUCTOR_ENTRY_MASK: u32 = 1;
+/// The call and return data offset.
+pub const OFFSET_DATA: usize = 1;
 
 /// The Solidity memory first hashing slot offset.
 pub const OFFSET_SOLIDITY_HASH_SLOT_FIRST: usize = 0;
@@ -37,3 +28,6 @@ pub static ERROR_EXPECTED_CONSTRUCTOR_CALL: &str = "zkSyncEVM_ErrorExpectedConst
 
 /// The `double constructor call` error preimage.
 pub static ERROR_DOUBLE_CONSTRUCTOR_CALL: &str = "zkSyncEVM_ErrorDoubleConstructorCall";
+
+/// The `sent/transfer forbidden` error preimage.
+pub static ERROR_FORBIDDEN_SEND_TRANSFER: &str = "zkSyncEVM_ErrorSendTransferForbidden";

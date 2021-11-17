@@ -4,6 +4,9 @@
 
 use sha3::Digest;
 
+///
+/// Computes the `keccak256` hash for `preimage`.
+///
 pub fn keccak256(preimage: &[u8]) -> String {
     let hash_bytes = sha3::Keccak256::digest(preimage);
     hash_bytes

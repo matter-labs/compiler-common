@@ -2,7 +2,6 @@
 //! The compiler common library.
 //!
 
-pub(crate) mod address_space;
 pub(crate) mod context_value;
 
 pub mod abi;
@@ -16,5 +15,4 @@ pub mod identifier;
 pub mod size;
 pub mod vm;
 
-pub use self::address_space::AddressSpace;
 pub use self::context_value::ContextValue;

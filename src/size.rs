@@ -9,7 +9,10 @@ pub const BYTE: usize = 1;
 pub const ZKEVM_POINTER: usize = 2;
 
 /// The x86 word size.
-pub const WORD: usize = 8;
+pub const X32: usize = 4;
+
+/// The x86_64 word size.
+pub const X64: usize = 8;
 
 /// The ETH address size.
 pub const ETH_ADDRESS: usize = 20;

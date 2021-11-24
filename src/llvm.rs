@@ -1,5 +1,5 @@
 //!
-//! The common identifiers.
+//! The common LLVM identifiers.
 //!
 
 /// The contract entry selector function name.

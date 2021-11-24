@@ -1,5 +1,5 @@
 //!
-//! The virtual machine tools.
+//! The virtual machine identifiers.
 //!
 
 /// The LLVM target name.

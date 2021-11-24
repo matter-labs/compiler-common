@@ -1,5 +1,5 @@
 //!
-//! The contract ABI storage constants.
+//! The zkEVM ABI storage constants.
 //!
 
 /// The constructor flag key preimage.

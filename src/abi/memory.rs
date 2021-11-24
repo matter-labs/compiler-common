@@ -1,5 +1,5 @@
 //!
-//! The contract ABI memory constants.
+//! The zkEVM ABI memory constants.
 //!
 
 /// The header offset.

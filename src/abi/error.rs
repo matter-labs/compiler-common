@@ -1,5 +1,5 @@
 //!
-//! The error codes `keccak256` preimages.
+//! The zkEVM error `keccak256` preimages.
 //!
 
 /// The `expected constructor call` error preimage.

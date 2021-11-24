@@ -1,9 +1,9 @@
 //!
-//! The contract context value.
+//! The contract context values.
 //!
 
 ///
-/// The contract context value.
+/// The contract context values.
 ///
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum ContextValue {

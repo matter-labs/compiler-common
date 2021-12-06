@@ -16,6 +16,7 @@ pub(crate) mod vm;
 
 pub use self::abi::address::ECRECOVER as ABI_ADDRESS_ECRECOVER;
 pub use self::abi::address::KECCAK256 as ABI_ADDRESS_KECCAK256;
+pub use self::abi::address::RIPEMD160 as ABI_ADDRESS_RIPEMD160;
 pub use self::abi::address::SHA256 as ABI_ADDRESS_SHA256;
 pub use self::abi::error::DOUBLE_CONSTRUCTOR_CALL as ABI_ERROR_DOUBLE_CONSTRUCTOR_CALL;
 pub use self::abi::error::EXPECTED_CONSTRUCTOR_CALL as ABI_ERROR_EXPECTED_CONSTRUCTOR_CALL;
@@ -60,9 +61,6 @@ pub use self::size::FIELD as SIZE_FIELD;
 pub use self::size::X32 as SIZE_X32;
 pub use self::size::X64 as SIZE_X64;
 pub use self::size::ZKEVM_POINTER as SIZE_ZKEVM_POINTER;
-pub use self::solidity::address::ECRECOVER as SOLIDITY_ADDRESS_ECRECOVER;
-pub use self::solidity::address::RIPEMD160 as SOLIDITY_ADDRESS_RIPEMD160;
-pub use self::solidity::address::SHA256 as SOLIDITY_ADDRESS_SHA256;
 pub use self::solidity::memory::OFFSET_EMPTY_SLOT as SOLIDITY_MEMORY_OFFSET_EMPTY_SLOT;
 pub use self::solidity::memory::OFFSET_MEMORY_POINTER as SOLIDITY_MEMORY_OFFSET_MEMORY_POINTER;
 pub use self::solidity::memory::OFFSET_SCRATCH_SPACE as SOLIDITY_MEMORY_OFFSET_SCRATCH_SPACE;

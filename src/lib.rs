@@ -14,6 +14,7 @@ pub(crate) mod size;
 pub(crate) mod solidity;
 pub(crate) mod vm;
 
+pub use self::abi::address::CREATE as ABI_ADDRESS_CREATE;
 pub use self::abi::address::ECRECOVER as ABI_ADDRESS_ECRECOVER;
 pub use self::abi::address::KECCAK256 as ABI_ADDRESS_KECCAK256;
 pub use self::abi::address::RIPEMD160 as ABI_ADDRESS_RIPEMD160;
@@ -51,8 +52,10 @@ pub use self::extension::ZINC as EXTENSION_ZINC;
 pub use self::extension::ZKEVM_ASSEMBLY as EXTENSION_ZKEVM_ASSEMBLY;
 pub use self::extension::ZKEVM_BINARY as EXTENSION_ZKEVM_BINARY;
 pub use self::hashes::keccak256;
+pub use self::llvm::FUNCTION_ADDMOD as LLVM_FUNCTION_ADDMOD;
 pub use self::llvm::FUNCTION_CONSTRUCTOR as LLVM_FUNCTION_CONSTRUCTOR;
 pub use self::llvm::FUNCTION_CXA_THROW as LLVM_FUNCTION_CXA_THROW;
+pub use self::llvm::FUNCTION_MULMOD as LLVM_FUNCTION_MULMOD;
 pub use self::llvm::FUNCTION_PERSONALITY as LLVM_FUNCTION_PERSONALITY;
 pub use self::llvm::FUNCTION_SELECTOR as LLVM_FUNCTION_SELECTOR;
 pub use self::size::BYTE as SIZE_BYTE;

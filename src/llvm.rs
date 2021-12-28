@@ -2,7 +2,10 @@
 //! The common LLVM identifiers.
 //!
 
-/// The contract entry selector function name.
+/// The contract entry function name.
+pub static FUNCTION_ENTRY: &str = "__entry";
+
+/// The contract selector function name.
 pub static FUNCTION_SELECTOR: &str = "__selector";
 
 /// The contract constructor function name.

@@ -13,6 +13,7 @@ pub(crate) mod llvm;
 pub(crate) mod size;
 pub(crate) mod solidity;
 pub(crate) mod vm;
+pub(crate) mod vyper;
 
 pub use self::abi::address::CREATE as ABI_ADDRESS_CREATE;
 pub use self::abi::address::ECRECOVER as ABI_ADDRESS_ECRECOVER;
@@ -71,3 +72,5 @@ pub use self::solidity::memory::OFFSET_MEMORY_POINTER as SOLIDITY_MEMORY_OFFSET_
 pub use self::solidity::memory::OFFSET_SCRATCH_SPACE as SOLIDITY_MEMORY_OFFSET_SCRATCH_SPACE;
 pub use self::vm::PRODUCTION_NAME as VM_PRODUCTION_NAME;
 pub use self::vm::TARGET_NAME as VM_TARGET_NAME;
+pub use self::vyper::memory::FREE_VAR_SPACE as VYPER_MEMORY_OFFSET_FREE_VAR_SPACE;
+pub use self::vyper::memory::FREE_VAR_SPACE2 as VYPER_MEMORY_OFFSET_FREE_VAR_SPACE2;

@@ -72,5 +72,9 @@ pub use self::solidity::memory::OFFSET_MEMORY_POINTER as SOLIDITY_MEMORY_OFFSET_
 pub use self::solidity::memory::OFFSET_SCRATCH_SPACE as SOLIDITY_MEMORY_OFFSET_SCRATCH_SPACE;
 pub use self::vm::PRODUCTION_NAME as VM_PRODUCTION_NAME;
 pub use self::vm::TARGET_NAME as VM_TARGET_NAME;
+pub use self::vyper::memory::FREE_LOOP_INDEX as VYPER_MEMORY_OFFSET_FREE_LOOP_INDEX;
 pub use self::vyper::memory::FREE_VAR_SPACE as VYPER_MEMORY_OFFSET_FREE_VAR_SPACE;
 pub use self::vyper::memory::FREE_VAR_SPACE2 as VYPER_MEMORY_OFFSET_FREE_VAR_SPACE2;
+pub use self::vyper::memory::MAXDECIMAL as VYPER_MEMORY_OFFSET_MAXDECIMAL;
+pub use self::vyper::memory::MINDECIMAL as VYPER_MEMORY_OFFSET_MINDECIMAL;
+pub use self::vyper::memory::RESERVED_MEMORY as VYPER_MEMORY_OFFSET_RESERVED_MEMORY;

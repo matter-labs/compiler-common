@@ -17,6 +17,7 @@ pub(crate) mod vyper;
 
 pub use self::abi::address::CREATE as ABI_ADDRESS_CREATE;
 pub use self::abi::address::ECRECOVER as ABI_ADDRESS_ECRECOVER;
+pub use self::abi::address::IDENTITY as ABI_ADDRESS_IDENTITY;
 pub use self::abi::address::KECCAK256 as ABI_ADDRESS_KECCAK256;
 pub use self::abi::address::RIPEMD160 as ABI_ADDRESS_RIPEMD160;
 pub use self::abi::address::SHA256 as ABI_ADDRESS_SHA256;

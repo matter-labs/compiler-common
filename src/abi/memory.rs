@@ -3,7 +3,7 @@
 //!
 
 /// The heap size in cells.
-pub const SIZE: usize = 0xffff;
+pub const SIZE: usize = 0x80000;
 
 /// The calldata and return data offset's offset (cells).
 pub const OFFSET_DATA_OFFSET: usize = SIZE - 1;

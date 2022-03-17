@@ -63,6 +63,7 @@ pub use self::llvm::FUNCTION_ENTRY as LLVM_FUNCTION_ENTRY;
 pub use self::llvm::FUNCTION_MULMOD as LLVM_FUNCTION_MULMOD;
 pub use self::llvm::FUNCTION_PERSONALITY as LLVM_FUNCTION_PERSONALITY;
 pub use self::llvm::FUNCTION_SELECTOR as LLVM_FUNCTION_SELECTOR;
+pub use self::llvm::FUNCTION_SIGNEXTEND as LLVM_FUNCTION_SIGNEXTEND;
 pub use self::size::BYTE as SIZE_BYTE;
 pub use self::size::ETH_ADDRESS as SIZE_ETH_ADDRESS;
 pub use self::size::FIELD as SIZE_FIELD;

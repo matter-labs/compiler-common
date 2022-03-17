@@ -22,3 +22,6 @@ pub static FUNCTION_ADDMOD: &str = "__addmod";
 
 /// The `mulmod` runtime function name.
 pub static FUNCTION_MULMOD: &str = "__mulmod";
+
+/// The `signextend` runtime function name.
+pub static FUNCTION_SIGNEXTEND: &str = "__signextend";

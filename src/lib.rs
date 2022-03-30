@@ -26,6 +26,7 @@ pub use self::abi::entry::ARGUMENT_INDEX_IS_CONSTRUCTOR_CALL as ABI_ENTRY_ARGUME
 pub use self::abi::error::FORBIDDEN_SEND_TRANSFER as ABI_ERROR_FORBIDDEN_SEND_TRANSFER;
 pub use self::abi::memory::OFFSET_DATA_LENGTH as ABI_MEMORY_OFFSET_DATA_LENGTH;
 pub use self::abi::memory::OFFSET_DATA_OFFSET as ABI_MEMORY_OFFSET_DATA_OFFSET;
+pub use self::abi::memory::OFFSET_LONG_RETURN as ABI_MEMORY_OFFSET_LONG_RETURN;
 pub use self::abi::memory::SIZE as ABI_MEMORY_SIZE;
 pub use self::abi::storage::DEPLOYED_CONTRACTS_COUNTER as ABI_STORAGE_DEPLOYED_CONTRACTS_COUNTER;
 pub use self::base::BINARY as BASE_BINARY;
@@ -70,5 +71,4 @@ pub use self::vm::TARGET_NAME as VM_TARGET_NAME;
 pub use self::vyper::forwarder::BYTECODE as VYPER_FORWARDER_BYTECODE;
 pub use self::vyper::memory::OFFSET_FREE_VAR_SPACE as VYPER_MEMORY_OFFSET_FREE_VAR_SPACE;
 pub use self::vyper::memory::OFFSET_FREE_VAR_SPACE2 as VYPER_MEMORY_OFFSET_FREE_VAR_SPACE2;
-pub use self::vyper::memory::OFFSET_LONG_RETURN as VYPER_MEMORY_OFFSET_LONG_RETURN;
 pub use self::vyper::memory::OFFSET_NON_RESERVED as VYPER_MEMORY_OFFSET_NON_RESERVED;

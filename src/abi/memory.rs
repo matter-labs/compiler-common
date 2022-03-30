@@ -10,3 +10,6 @@ pub const OFFSET_DATA_OFFSET: usize = SIZE - 1;
 
 /// The calldata and return data length's offset (cells).
 pub const OFFSET_DATA_LENGTH: usize = SIZE - 2;
+
+/// The long-return flag offset (cells).
+pub const OFFSET_LONG_RETURN: usize = SIZE - 3;

@@ -8,7 +8,7 @@ pub const OFFSET_SCRATCH_SPACE: usize = 0;
 /// The memory pointer offset (cells).
 pub const OFFSET_MEMORY_POINTER: usize = 2;
 
-/// The empty slot offset (cells). Currently used for the long-return flag.
+/// The empty slot offset (cells).
 pub const OFFSET_EMPTY_SLOT: usize = 3;
 
 /// The non-reserved memory offset (cells).

@@ -2,20 +2,14 @@
 //! The Vyper memory constants.
 //!
 
-/// The `MAXDECIMAL` offset (bytes).
-pub const MAXDECIMAL: usize = 32;
-
-/// The `MINDECIMAL` offset (bytes).
-pub const MINDECIMAL: usize = 64;
-
 /// The `FREE_VAR_SPACE` offset (bytes).
-pub const FREE_VAR_SPACE: usize = 128;
+pub const OFFSET_FREE_VAR_SPACE: usize = 0;
 
 /// The `FREE_VAR_SPACE2` offset (bytes).
-pub const FREE_VAR_SPACE2: usize = 160;
+pub const OFFSET_FREE_VAR_SPACE2: usize = 32;
 
-/// The `FREE_LOOP_INDEX` offset (bytes).
-pub const FREE_LOOP_INDEX: usize = 192;
+/// The non-reserved memory offset (bytes).
+pub const OFFSET_NON_RESERVED: usize = 64;
 
-/// The `RESERVED_MEMORY` offset (bytes).
-pub const RESERVED_MEMORY: usize = 224;
+/// The long-return flag memory offset (bytes).
+pub const OFFSET_LONG_RETURN: usize = 0xffff * crate::size::FIELD;

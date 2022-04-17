@@ -14,12 +14,17 @@ pub(crate) mod solidity;
 pub(crate) mod vm;
 pub(crate) mod vyper;
 
+pub use self::abi::address::CODE_ADDRESS as ABI_ADDRESS_CODE_ADDRESS;
 pub use self::abi::address::CREATE as ABI_ADDRESS_CREATE;
 pub use self::abi::address::ECRECOVER as ABI_ADDRESS_ECRECOVER;
 pub use self::abi::address::IDENTITY as ABI_ADDRESS_IDENTITY;
 pub use self::abi::address::KECCAK256 as ABI_ADDRESS_KECCAK256;
+pub use self::abi::address::META as ABI_ADDRESS_META;
+pub use self::abi::address::MIMIC_CALL as ABI_ADDRESS_MIMIC_CALL;
+pub use self::abi::address::PRECOMPILE as ABI_ADDRESS_PRECOMPILE;
 pub use self::abi::address::RIPEMD160 as ABI_ADDRESS_RIPEMD160;
 pub use self::abi::address::SHA256 as ABI_ADDRESS_SHA256;
+pub use self::abi::address::TO_L1 as ABI_ADDRESS_TO_L1;
 pub use self::abi::entry::ARGUMENT_INDEX_CALLDATA_LENGTH as ABI_ENTRY_ARGUMENT_INDEX_CALLDATA_LENGTH;
 pub use self::abi::entry::ARGUMENT_INDEX_CALLDATA_OFFSET as ABI_ENTRY_ARGUMENT_INDEX_CALLDATA_OFFSET;
 pub use self::abi::entry::ARGUMENT_INDEX_IS_CONSTRUCTOR_CALL as ABI_ENTRY_ARGUMENT_INDEX_IS_CONSTRUCTOR_CALL;

@@ -2,23 +2,26 @@
 //! The zkEVM constant addresses.
 //!
 
-/// The `ecrecover` predefined address.
-pub static ECRECOVER: &str = "0x0000000000000000000000000000000000000001";
+/// The bootloader formal address.
+pub static BOOTLOADER: &str = "0x0000000000000000000000000000000000000001";
 
-/// The `sha256` predefined address.
-pub static SHA256: &str = "0x0000000000000000000000000000000000000002";
+/// The deployer system contract address.
+pub static DEPLOYER: &str = "0x0000000000000000000000000000000000000002";
 
-/// The `ripemd160` predefined address.
-pub static RIPEMD160: &str = "0x0000000000000000000000000000000000000003";
+/// The nonce manager system contract address.
+pub static NONCE_MANAGER: &str = "0x0000000000000000000000000000000000000003";
 
-/// The `identity` predefined address.
-pub static IDENTITY: &str = "0x0000000000000000000000000000000000000004";
+/// The known code factory system contract address.
+pub static KNOWN_CODE_FACTORY: &str = "0x0000000000000000000000000000000000000004";
 
 /// The `keccak256` predefined address.
-pub static KECCAK256: &str = "0x00000000000000000000000000000000000003FF";
+pub static KECCAK256: &str = "0x0000000000000000000000000000000000000010";
 
-/// The `create[2]` predefined address.
-pub static CREATE: &str = "0x00000000000000000000000000000000000003FE";
+/// The `sha256` predefined address.
+pub static SHA256: &str = "0x0000000000000000000000000000000000000011";
+
+/// The `ecrecover` predefined address.
+pub static ECRECOVER: &str = "0x0000000000000000000000000000000000000012";
 
 /// The `to_l1` simulation predefined address.
 pub static TO_L1: &str = "0x000000000000000000000000000000000000FFFF";

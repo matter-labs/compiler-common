@@ -5,14 +5,17 @@
 /// The bootloader formal address.
 pub static BOOTLOADER: &str = "0x0000000000000000000000000000000000000001";
 
-/// The deployer system contract address.
-pub static DEPLOYER: &str = "0x0000000000000000000000000000000000000002";
+/// The contract deployer system contract address.
+pub static CONTRACT_DEPLOYER: &str = "0x0000000000000000000000000000000000000002";
 
-/// The nonce manager system contract address.
-pub static NONCE_MANAGER: &str = "0x0000000000000000000000000000000000000003";
+/// The nonce holder system contract address.
+pub static NONCE_HOLDER: &str = "0x0000000000000000000000000000000000000003";
 
 /// The known code factory system contract address.
-pub static KNOWN_CODE_FACTORY: &str = "0x0000000000000000000000000000000000000004";
+pub static KNOWN_CODES_STORAGE: &str = "0x0000000000000000000000000000000000000004";
+
+/// The immutable simulator system contract address.
+pub static IMMUTABLE_SIMULATOR: &str = "0x0000000000000000000000000000000000000005";
 
 /// The `keccak256` predefined address.
 pub static KECCAK256: &str = "0x0000000000000000000000000000000000000010";

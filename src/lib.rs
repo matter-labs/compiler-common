@@ -14,13 +14,14 @@ pub(crate) mod vyper;
 
 pub use self::abi::address::BOOTLOADER as ABI_ADDRESS_BOOTLOADER;
 pub use self::abi::address::CODE_ADDRESS as ABI_ADDRESS_CODE_ADDRESS;
-pub use self::abi::address::DEPLOYER as ABI_ADDRESS_DEPLOYER;
+pub use self::abi::address::CONTRACT_DEPLOYER as ABI_ADDRESS_CONTRACT_DEPLOYER;
 pub use self::abi::address::ECRECOVER as ABI_ADDRESS_ECRECOVER;
+pub use self::abi::address::IMMUTABLE_SIMULATOR as ABI_ADDRESS_IMMUTABLE_SIMULATOR;
 pub use self::abi::address::KECCAK256 as ABI_ADDRESS_KECCAK256;
-pub use self::abi::address::KNOWN_CODE_FACTORY as ABI_ADDRESS_KNOWN_CODE_FACTORY;
+pub use self::abi::address::KNOWN_CODES_STORAGE as ABI_ADDRESS_KNOWN_CODES_STORAGE;
 pub use self::abi::address::META as ABI_ADDRESS_META;
 pub use self::abi::address::MIMIC_CALL as ABI_ADDRESS_MIMIC_CALL;
-pub use self::abi::address::NONCE_MANAGER as ABI_ADDRESS_NONCE_MANAGER;
+pub use self::abi::address::NONCE_HOLDER as ABI_ADDRESS_NONCE_HOLDER;
 pub use self::abi::address::PRECOMPILE as ABI_ADDRESS_PRECOMPILE;
 pub use self::abi::address::SHA256 as ABI_ADDRESS_SHA256;
 pub use self::abi::address::TO_L1 as ABI_ADDRESS_TO_L1;

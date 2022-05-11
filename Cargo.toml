@@ -11,4 +11,3 @@ description = "The compiler common data"
 doctest = false
 
 [dependencies]
-sha3 = "0.9"

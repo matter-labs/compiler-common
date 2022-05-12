@@ -21,6 +21,7 @@ pub use self::abi::address::META as ABI_ADDRESS_META;
 pub use self::abi::address::MIMIC_CALL as ABI_ADDRESS_MIMIC_CALL;
 pub use self::abi::address::NONCE_HOLDER as ABI_ADDRESS_NONCE_HOLDER;
 pub use self::abi::address::PRECOMPILE as ABI_ADDRESS_PRECOMPILE;
+pub use self::abi::address::SYSTEM_CALL as ABI_ADDRESS_SYSTEM_CALL;
 pub use self::abi::address::TO_L1 as ABI_ADDRESS_TO_L1;
 pub use self::abi::error::FORBIDDEN_SEND_TRANSFER as ABI_ERROR_FORBIDDEN_SEND_TRANSFER;
 pub use self::abi::memory::OFFSET_CALLDATA_LENGTH as ABI_MEMORY_OFFSET_CALLDATA_LENGTH;

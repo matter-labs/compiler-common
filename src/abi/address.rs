@@ -17,7 +17,7 @@ pub static KNOWN_CODES_STORAGE: &str = "0x00000000000000000000000000000000000080
 /// The immutable simulator system contract address.
 pub static IMMUTABLE_SIMULATOR: &str = "0x0000000000000000000000000000000000008005";
 
-/// The `keccak256` predefined address.
+/// The `keccak256` system contract address.
 pub static KECCAK256: &str = "0x0000000000000000000000000000000000008010";
 
 /// The `to_l1` simulation predefined address.
@@ -34,3 +34,6 @@ pub static META: &str = "0x000000000000000000000000000000000000FFFC";
 
 /// The `mimic_call` simulation predefined address.
 pub static MIMIC_CALL: &str = "0x000000000000000000000000000000000000FFFB";
+
+/// The `system_call` simulation predefined address.
+pub static SYSTEM_CALL: &str = "0x000000000000000000000000000000000000FFFA";

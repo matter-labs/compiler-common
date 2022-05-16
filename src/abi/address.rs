@@ -5,8 +5,8 @@
 /// The bootloader formal address.
 pub static BOOTLOADER: &str = "0x0000000000000000000000000000000000008001";
 
-/// The contract deployer system contract address.
-pub static CONTRACT_DEPLOYER: &str = "0x0000000000000000000000000000000000008002";
+/// The account code storage system contract address.
+pub static ACCOUNT_CODE_STORAGE: &str = "0x0000000000000000000000000000000000008002";
 
 /// The nonce holder system contract address.
 pub static NONCE_HOLDER: &str = "0x0000000000000000000000000000000000008003";
@@ -16,6 +16,9 @@ pub static KNOWN_CODES_STORAGE: &str = "0x00000000000000000000000000000000000080
 
 /// The immutable simulator system contract address.
 pub static IMMUTABLE_SIMULATOR: &str = "0x0000000000000000000000000000000000008005";
+
+/// The contract deployer system contract address.
+pub static CONTRACT_DEPLOYER: &str = "0x0000000000000000000000000000000000008006";
 
 /// The `keccak256` system contract address.
 pub static KECCAK256: &str = "0x0000000000000000000000000000000000008010";

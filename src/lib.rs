@@ -11,6 +11,7 @@ pub(crate) mod size;
 pub(crate) mod solidity;
 pub(crate) mod vyper;
 
+pub use self::abi::address::ACCOUNT_CODE_STORAGE as ABI_ADDRESS_ACCOUNT_CODE_STORAGE;
 pub use self::abi::address::BOOTLOADER as ABI_ADDRESS_BOOTLOADER;
 pub use self::abi::address::CODE_ADDRESS as ABI_ADDRESS_CODE_ADDRESS;
 pub use self::abi::address::CONTRACT_DEPLOYER as ABI_ADDRESS_CONTRACT_DEPLOYER;

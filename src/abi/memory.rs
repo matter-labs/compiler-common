@@ -16,3 +16,9 @@ pub const OFFSET_RETURN_DATA_OFFSET: usize = SIZE - 3;
 
 /// The return data length's offset (cells).
 pub const OFFSET_RETURN_DATA_LENGTH: usize = SIZE - 4;
+
+/// The Vyper forwarder calldata space offset (cells).
+pub const OFFSET_VYPER_FORWARDER_CALLDATA: usize = SIZE - 64;
+
+/// The constructor return data space offset (cells).
+pub const OFFSET_CONSTRUCTOR_RETURN_DATA: usize = SIZE - 0xffff;

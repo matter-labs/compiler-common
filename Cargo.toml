@@ -1,6 +1,6 @@
 [package]
 name = "compiler-common"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
     "Alex Zarudnyy <a.zarudnyy@matterlabs.dev>",
 ]
@@ -9,5 +9,3 @@ description = "The compiler common data"
 
 [lib]
 doctest = false
-
-[dependencies]

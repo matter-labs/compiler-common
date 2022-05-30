@@ -15,6 +15,7 @@ pub use self::abi::address::ACCOUNT_CODE_STORAGE as ABI_ADDRESS_ACCOUNT_CODE_STO
 pub use self::abi::address::BOOTLOADER as ABI_ADDRESS_BOOTLOADER;
 pub use self::abi::address::CODE_ADDRESS as ABI_ADDRESS_CODE_ADDRESS;
 pub use self::abi::address::CONTRACT_DEPLOYER as ABI_ADDRESS_CONTRACT_DEPLOYER;
+pub use self::abi::address::ETH_TOKEN as ABI_ADDRESS_ETH_TOKEN;
 pub use self::abi::address::IMMUTABLE_SIMULATOR as ABI_ADDRESS_IMMUTABLE_SIMULATOR;
 pub use self::abi::address::KECCAK256 as ABI_ADDRESS_KECCAK256;
 pub use self::abi::address::KNOWN_CODES_STORAGE as ABI_ADDRESS_KNOWN_CODES_STORAGE;

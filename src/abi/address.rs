@@ -20,6 +20,9 @@ pub static IMMUTABLE_SIMULATOR: &str = "0x00000000000000000000000000000000000080
 /// The contract deployer system contract address.
 pub static CONTRACT_DEPLOYER: &str = "0x0000000000000000000000000000000000008006";
 
+/// The `msg.value` system contract address.
+pub static MSG_VALUE: &str = "0x0000000000000000000000000000000000008007";
+
 /// The `keccak256` system contract address.
 pub static KECCAK256: &str = "0x0000000000000000000000000000000000008010";
 
@@ -40,3 +43,6 @@ pub static MIMIC_CALL: &str = "0x000000000000000000000000000000000000FFFB";
 
 /// The `system_call` simulation predefined address.
 pub static SYSTEM_CALL: &str = "0x000000000000000000000000000000000000FFFA";
+
+/// The `set_context_value_call` simulation predefined address.
+pub static SET_CONTEXT_VALUE_CALL: &str = "0x000000000000000000000000000000000000FFF9";

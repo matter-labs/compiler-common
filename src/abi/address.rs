@@ -47,5 +47,8 @@ pub static SYSTEM_CALL: &str = "0x000000000000000000000000000000000000FFFA";
 /// The `set_context_value_call` simulation predefined address.
 pub static SET_CONTEXT_VALUE_CALL: &str = "0x000000000000000000000000000000000000FFF9";
 
+/// The unrestricted address space beginning.
+pub static UNRESTRICTED_SPACE: &str = "0x0000000000000000000000000000000000010000";
+
 /// The ETH token predefined address.
 pub static ETH_TOKEN: &str = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE";

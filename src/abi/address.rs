@@ -20,8 +20,17 @@ pub static IMMUTABLE_SIMULATOR: &str = "0x00000000000000000000000000000000000080
 /// The contract deployer system contract address.
 pub static CONTRACT_DEPLOYER: &str = "0x0000000000000000000000000000000000008006";
 
+/// The force deployer system contract address.
+pub static FORCE_DEPLOYER: &str = "0x0000000000000000000000000000000000008007";
+
+/// The L1 messenger system contract address.
+pub static L1_MESSENGER: &str = "0x0000000000000000000000000000000000008008";
+
 /// The `msg.value` system contract address.
-pub static MSG_VALUE: &str = "0x0000000000000000000000000000000000008007";
+pub static MSG_VALUE: &str = "0x0000000000000000000000000000000000008009";
+
+/// The ETH token system contract address.
+pub static ETH_TOKEN: &str = "0x000000000000000000000000000000000000800A";
 
 /// The `keccak256` system contract address.
 pub static KECCAK256: &str = "0x0000000000000000000000000000000000008010";
@@ -49,6 +58,3 @@ pub static SET_CONTEXT_VALUE_CALL: &str = "0x00000000000000000000000000000000000
 
 /// The unrestricted address space beginning.
 pub static UNRESTRICTED_SPACE: &str = "0x0000000000000000000000000000000000010000";
-
-/// The ETH token predefined address.
-pub static ETH_TOKEN: &str = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE";

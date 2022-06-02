@@ -23,8 +23,8 @@ pub const OFFSET_ABI_VALUE_TEMPORARY_DATA: usize = SIZE - 5;
 /// The temporary storage of the data replaced by `address` of the ABI calldata (cells).
 pub const OFFSET_ABI_ADDRESS_TEMPORARY_DATA: usize = SIZE - 6;
 
-/// The Vyper forwarder calldata space offset (cells).
-pub const OFFSET_VYPER_FORWARDER_CALLDATA: usize = SIZE - 64;
+/// The arbitrary external calls space offset (cells).
+pub const OFFSET_ARBITRARY_EXTERNAL_CALL_SPACE: usize = SIZE - 64;
 
 /// The constructor return data space offset (cells).
 pub const OFFSET_CONSTRUCTOR_RETURN_DATA: usize = SIZE - 0xffff;

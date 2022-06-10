@@ -37,3 +37,6 @@ pub static ZKEVM_ASSEMBLY: &str = "zasm";
 
 /// The zkEVM binary file extension.
 pub static ZKEVM_BINARY: &str = "zbin";
+
+/// The ABI file extension.
+pub static ABI: &str = "abi";

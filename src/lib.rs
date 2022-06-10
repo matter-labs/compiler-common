@@ -53,6 +53,7 @@ pub use self::bitlength::X64 as BITLENGTH_X64;
 pub use self::bitlength::ZKEVM_POINTER as BITLENGTH_ZKEVM_POINTER;
 pub use self::exit_code::FAILURE as EXIT_CODE_FAILURE;
 pub use self::exit_code::SUCCESS as EXIT_CODE_SUCCESS;
+pub use self::extension::ABI as EXTENSION_ABI;
 pub use self::extension::EVM as EXTENSION_EVM;
 pub use self::extension::EVM_BINARY as EXTENSION_EVM_BINARY;
 pub use self::extension::JSON as EXTENSION_JSON;

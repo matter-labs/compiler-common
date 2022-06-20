@@ -13,6 +13,7 @@ pub(crate) mod vyper;
 
 pub use self::abi::address::ACCOUNT_CODE_STORAGE as ABI_ADDRESS_ACCOUNT_CODE_STORAGE;
 pub use self::abi::address::BOOTLOADER as ABI_ADDRESS_BOOTLOADER;
+pub use self::abi::address::CHAIN_ID as ABI_ADDRESS_CHAIN_ID;
 pub use self::abi::address::CODE_ADDRESS as ABI_ADDRESS_CODE_ADDRESS;
 pub use self::abi::address::CONTRACT_DEPLOYER as ABI_ADDRESS_CONTRACT_DEPLOYER;
 pub use self::abi::address::ETH_TOKEN as ABI_ADDRESS_ETH_TOKEN;

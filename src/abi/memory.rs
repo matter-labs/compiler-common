@@ -27,4 +27,4 @@ pub const OFFSET_ABI_ADDRESS_TEMPORARY_DATA: usize = SIZE - 6;
 pub const OFFSET_ARBITRARY_EXTERNAL_CALL_SPACE: usize = SIZE - 64;
 
 /// The constructor return data space offset (cells).
-pub const OFFSET_CONSTRUCTOR_RETURN_DATA: usize = SIZE - 0xffff;
+pub const OFFSET_CONSTRUCTOR_RETURN_DATA: usize = SIZE - 0x10000;

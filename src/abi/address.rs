@@ -32,8 +32,8 @@ pub static MSG_VALUE: &str = "0x0000000000000000000000000000000000008009";
 /// The ETH token system contract address.
 pub static ETH_TOKEN: &str = "0x000000000000000000000000000000000000800A";
 
-/// The chain ID system contract address.
-pub static CHAIN_ID: &str = "0x000000000000000000000000000000000000800B";
+/// The system context system contract address.
+pub static SYSTEM_CONTEXT: &str = "0x000000000000000000000000000000000000800B";
 
 /// The `keccak256` system contract address.
 pub static KECCAK256: &str = "0x0000000000000000000000000000000000008010";

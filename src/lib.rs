@@ -13,7 +13,6 @@ pub(crate) mod vyper;
 
 pub use self::abi::address::ACCOUNT_CODE_STORAGE as ABI_ADDRESS_ACCOUNT_CODE_STORAGE;
 pub use self::abi::address::BOOTLOADER as ABI_ADDRESS_BOOTLOADER;
-pub use self::abi::address::CHAIN_ID as ABI_ADDRESS_CHAIN_ID;
 pub use self::abi::address::CODE_ADDRESS as ABI_ADDRESS_CODE_ADDRESS;
 pub use self::abi::address::CONTRACT_DEPLOYER as ABI_ADDRESS_CONTRACT_DEPLOYER;
 pub use self::abi::address::ETH_TOKEN as ABI_ADDRESS_ETH_TOKEN;
@@ -29,6 +28,7 @@ pub use self::abi::address::NONCE_HOLDER as ABI_ADDRESS_NONCE_HOLDER;
 pub use self::abi::address::PRECOMPILE as ABI_ADDRESS_PRECOMPILE;
 pub use self::abi::address::SET_CONTEXT_VALUE_CALL as ABI_ADDRESS_SET_CONTEXT_VALUE_CALL;
 pub use self::abi::address::SYSTEM_CALL as ABI_ADDRESS_SYSTEM_CALL;
+pub use self::abi::address::SYSTEM_CONTEXT as ABI_ADDRESS_SYSTEM_CONTEXT;
 pub use self::abi::address::TO_L1 as ABI_ADDRESS_TO_L1;
 pub use self::abi::address::UNRESTRICTED_SPACE as ABI_ADDRESS_UNRESTRICTED_SPACE;
 pub use self::abi::error::FORBIDDEN_SEND_TRANSFER as ABI_ERROR_FORBIDDEN_SEND_TRANSFER;
